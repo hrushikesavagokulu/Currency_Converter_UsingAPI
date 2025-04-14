@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.converter-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 390px;
+    transition: transform 0.3s ease;
+}
+
+.converter-container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.selectors {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#amount {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2855aa;
+}
+
+.result-box {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#inr-note {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 6px;
+}
